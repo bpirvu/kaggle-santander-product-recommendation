@@ -12,7 +12,7 @@ Generally speaking, we tried to keep our approach as simple as possible. Here ar
 * model used: the Boosted Trees (Multiclass) Classifier from GraphLab Create
 * use the transition 2015-05 -> 2015-06  in order to train the model
 * use the product features from January to May 2015 in order to generate features (lookback_months=4)
-* remove folloeing 5 irrelevant product columns from the training data completely according to (https://www.kaggle.com/c/santander-product-recommendation/forums/t/25727/question-about-map-7?forumMessageId=146330#post146330):
+* remove following 5 irrelevant product columns from the training data and from the predictions according to (https://www.kaggle.com/c/santander-product-recommendation/forums/t/25727/question-about-map-7?forumMessageId=146330#post146330):
     * irrelevantProductCols =['ind_ahor_fin_ult1','ind_aval_fin_ult1','ind_viv_fin_ult1','ind_deco_fin_ult1','ind_deme_fin_ult1']
 
 Many thanks to the Kaggle forum users and the Vienna Kaggle meetup for inspiring ideas!
